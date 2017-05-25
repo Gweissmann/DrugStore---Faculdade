@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+#header4-1 H1 {
+  text-align: center;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+#header4-1 P {
+  color: #000000;
+  text-align: center;
+}
+
+#dropdown-menu-6 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-6 .navbar-brand a {
+  font-family: 'Droid Sans', sans-serif;
+}
+#dropdown-menu-6 .nav .link,
+#dropdown-menu-6 .dropdown-item {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+#dropdown-menu-6 .navbar,
+#dropdown-menu-6 .dropdown-menu {
+  background: #27aae0;
+}
+#dropdown-menu-6 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-6 .dropdown-menu a:hover,
+#dropdown-menu-6 .dropdown-menu a:focus {
+  background: #1e9fd4;
+}
+#dropdown-menu-6 .navbar-toggler {
+  color: #ffffff;
+}
