@@ -1,0 +1,70 @@
+.mbr-box .mbr-section,
+.mbr-section--relative,
+.mbr-section--fixed-size,
+.mbr-section--full-height,
+.mbr-section--bg-adapted,
+.mbr-parallax-background{
+    background-image: url(../images/background.png);
+}
+
+.mbr-overlay{
+    opacity: 0.4; background-color: rgb(40, 50, 78);
+}
+
+#loginEmail{
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+#password{
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.stylebutton{
+	margin-top: 10px;
+    padding: 25px;
+}
+.stylebutton:hover{
+    background-color: orange;
+    border-color: orange;
+}
+.styledivbutton{
+	height: 20px
+}
+.stylesectionbutton{
+	background-color: #28B292;
+}
+.stylenavbar{
+	padding-bottom: 31px;
+}
+.styleProduto{
+    margin: 5px;
+}
+
+.div-titulo{
+  padding: 15px;
+  background-color: #27aae0;
+}
+.table-div{
+  background-color: #ffffff;
+}
+.div-titulo small{
+color: white;
+}
+body{
+  background-color: #fff2e6;
+}
+
+.div-compras-all{
+  margin-top: 150px;
+
+}
+
+.all-div{
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.style-compra-finalizada{
+  margin: 15px;
+}
