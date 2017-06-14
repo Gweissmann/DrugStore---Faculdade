@@ -43,10 +43,11 @@ Contributor(s):
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/db_farmacia85</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/db_drugstore</property>
     <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.connection.password"/>
+    <property name="hibernate.current_session_context">thread</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping resource="users.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
-
-

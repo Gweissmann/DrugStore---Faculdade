@@ -3,7 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Aluno/Downloads/DrugStore---Faculdade-master/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/xampp/htdocs/DrugStore---Faculdade/src/java/com/hibernateutil/org/ConnectionUtil.java</file>
+            <file>file:/C:/xampp/htdocs/DrugStore---Faculdade/web/index.jsp</file>
+            <file>file:/C:/xampp/htdocs/DrugStore---Faculdade/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/xampp/htdocs/DrugStore---Faculdade/src/java/com/model/org/users.java</file>
         </group>
     </open-files>
 </project-private>

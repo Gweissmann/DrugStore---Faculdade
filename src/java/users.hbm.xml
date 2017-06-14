@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.model.org">
+  <class name="users" table="users">
+    <id column="id" name="id" type="int">
+      <generator class="native"/>
+    </id>
+    <property column="name" name="name" type="string"/>
+    <property column="lastname" name="lastname" type="string"/>
+    <property column="birthday" name="birthday" type="string"/>
+    <property column="gender" name="gender" type="string"/>
+    <property column="cpf" name="cpf" type="int"/>
+    <property column="email" name="email" type="string"/>
+    <property column="cep" name="cep" type="int"/>
+    <property column="address" name="address" type="string"/>
+    <property column="adr_num" name="adr_num" type="int"/>
+    <property column="distric" name="distric" type="string"/>
+    <property column="city" name="city" type="string"/>
+    <property column="state" name="state" type="string"/>
+    <property column="password" name="password" type="string"/>
+    <property column="create_at" name="create_at" type="string"/>
+    <property column="update_at" name="update_at" type="string"/>
+    <property column="user_level" name="user_level" type="int"/>
+  </class>
+</hibernate-mapping>

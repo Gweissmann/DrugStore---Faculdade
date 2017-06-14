@@ -1,3 +1,12 @@
+<%-- 
+    Document   : index
+    Created on : 13/06/2017, 22:59:53
+    Author     : Gu
+--%>
+
+<%@page import="com.hibernateutil.org.ConnectionUtil"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,11 +24,12 @@
         <link rel="stylesheet" href="assets/assets/mobirise-slider/style.css">
         <link rel="stylesheet" href="assets/assets/mobirise/css/mbr-additional.css" type="text/css">
         <link rel="stylesheet" href="assets/css.css">
-
-
-
     </head>
     <body>
+      <%
+      ConnectionUtil.getSessionFactory(); 
+      %>  
+        
         <section id="dropdown-menu-6">
 
             <nav class="navbar navbar-dropdown stylenavbar navbar-fixed-top">
